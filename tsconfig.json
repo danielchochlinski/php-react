@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "noEmitOnError": true,
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": ["assets/**/*.ts", "assets/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
